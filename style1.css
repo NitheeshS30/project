@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background: url(./sb3.jpg);
+    background-size: cover;
+}
+.page1 header nav{
+    width: 100%;
+    height: 10vh;
+    background-color: green;
+    color: snow;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+.box{
+    width: 50%;
+    height: 60vh;
+    /*border: 1px solid;*/  
+    display: grid;
+    margin-left: 25%;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+.boxs{
+    /*border: 1px solid;*/
+    width: 400px;
+    height: 60px;
+   align-content: center;
+   text-align: center;
+   
+}
+input{
+    font-size: 30px;
+    padding: 15px;
+}
+select{
+    font-size: 30px;
+}
+.box3{
+    font-size: 30px;
+}
+.box4{
+    font-size: 30px;
+}
+.box6 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width:982px){
+    .box{
+        width: 70%;
+        height: 70vh;
+        /*border: 1px solid;*/
+        display: grid;
+        margin-left: 15%;
+        margin-top:5vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .page1{
+        background: url(./sb2.jpg);
+        background-size: cover;
+    }
+
+
+    .boxs{
+        border: 1px solid snow;
+        width: 420px;
+        height: 60px;
+        background-color: black;
+        
+    }
+    .box3{
+        font-size: 30px;
+        color: snow;
+    }
+    .box4{
+        font-size: 30px;
+        color: snow;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:576px){
+
+    .page1{
+        background: url(./sb2.jpg);
+        background-size: cover;
+    }
+    .boxs{
+        border: 1px solid snow;
+        width: 320px;
+        height: 60px;
+        background-color: black;
+    }
+
+    input{
+    
+        font-size: 20px;
+    }
+    select{
+        font-size: 20px;
+    }
+}
+   

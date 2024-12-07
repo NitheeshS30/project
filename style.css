@@ -1,0 +1,728 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    position: relative; 
+
+   
+}
+.page1 header nav .logobox{
+    width: 80px;
+    height: 80px;
+    /*border: 1px solid;*/
+    margin-right: 30px;
+    border-radius: 50%;
+    background: url(./sblogo1.jpeg);
+    background-size: cover;
+    
+}
+
+
+.page1 header nav{
+    width: 100%;
+    height: 15vh; 
+    background-color: #0A6847;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page1 header nav .menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+.page1 header nav .menu ul a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    font-size: 20px;
+}
+.page1 header nav .menu{
+    width: 50%;
+    height: 100vh;
+
+}
+.page1 header  nav .logo h1{
+    font-size: 50px;
+    color: snow;
+    font-weight: 800;
+}
+.page1 header nav .logo h1 span{
+    color: red;
+}
+.res a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+    padding: 8px;
+    border-radius: 2rem;
+    font-size: 20px;
+}
+.res a:hover{
+    color: orangered;
+}
+.page1 header nav .menu ul a:hover{
+    color: orangered;
+}
+.back video{
+    height: 85vh;
+    width: 100%;
+    object-fit: cover;
+}
+.dli{
+    position: absolute;
+    top: 30%;
+    color: white;
+    font-size: 90px;
+    margin: 8%;
+    font-weight: 700;
+}
+.slogan{
+    position: absolute;
+    top: 70%;
+    font-size: 30px;
+    color: snow;
+     margin: 8%;
+}
+
+
+
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #0A6847;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.pbox2{
+    width: 90%;
+    height: 95vh;
+    /*border: 1px solid;*/ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+.box2{
+    width: 80%;
+    height: 45vh;
+    /*border: 1px solid;*/
+    font-size: 20px;
+    color: snow;
+   
+}
+.box2 p{
+    text-align: justify;
+}
+
+p{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.box2 h2{
+    font-weight: 900;
+    margin-top: 20px;
+    font-size: 50px;
+   
+}
+.page2 h1{
+    color: snow;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+/*page3*/
+
+.page3{
+   /* background-color: #0A6847;*/
+    width: 100%;
+    height: 160vh;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.pbox3{
+    width: 90%;
+    height: 155vh;
+    /*border: 1px solid;*/
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+
+}
+.box3{
+    width: 80%;
+    height: 45vh;
+    /*border: 1px solid;*/
+    font-size: 20px;
+    justify-items: center;
+    overflow: hidden;
+}
+.box3:hover{
+    background-color: #006241;
+    color: snow;
+}
+.pname{
+   /*border: 1px solid;*/
+    width: 80%;
+    height: 5vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+   
+}
+.ima{
+    width: 100%;
+    height: 25vh;
+    /*border: 1px solid;*/
+   
+    
+}
+
+.ima:hover{
+    /*width: 100%;
+    height: 25vh;
+    border: 1px solid;*/
+    
+    animation: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(-10deg);
+    }
+    to{
+        transform: rotate(10deg);
+    }
+}
+.amt{
+    /*border: 1px solid;*/
+    width: 80%;
+    height: 5vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+
+}
+.pur{
+   /* border: 1px solid;*/
+    width: 80%;
+    height: 5vh;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+}
+.pur:hover{
+    background-color: orangered;
+    color: snow;
+}
+
+
+/* page9 */
+
+.page9{
+    height: 80vh;
+    width: 100%;
+     background-color: #0A6847;
+ }
+
+ .footer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+
+ .foot{
+    height: 50vh;
+    width: 20%;
+    /*border: 1px solid white;*/
+    
+
+ }
+
+ .footer1{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+ }
+
+ .footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+ }
+
+ .footer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+ }
+
+
+ .footer4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .mint1 h2{
+    color: orange;
+    margin-top: 30px;
+ }
+ .mint7 h2{
+    color: orange;
+    margin-top: 65px;
+ }
+
+
+ .mint2 {
+    color: snow;
+
+ }
+
+ .mint1 h3{
+    color: orange;
+    margin-top: -25%;
+    font-size: 25px;
+ }
+
+ .mint2 i{
+    padding: 10px;
+    font-size: 35px;
+ }
+
+ li{
+    list-style-type: none;
+    font-size: 25px;
+    text-align: center;
+ }
+
+ a{
+    text-decoration: none;
+    color: snow;
+ }
+ 
+ .mint2 a:hover{
+    color: orangered;
+    
+ }
+
+ .mint2 i:hover{
+    color: orangered;
+ }
+
+.mint1 h2:hover{
+    color: snow;
+}
+
+.mint1 h3:hover{
+    color: snow;
+}
+
+.copy{
+    color: snow;
+    margin-left: 25%;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:982px){ 
+    .page1 header nav .menu{
+        width: 20%;
+        height: 100vh;
+    
+    }
+    .page1 header nav .menu ul{
+        display: none;
+       
+    }
+    .box2{
+        width: 90%;
+        height: 40vh;
+        /*border: 1px solid;*/
+        font-size: 15px;
+       
+    }
+    .box2 h2{
+        font-weight: 900;
+        margin-top: 20px;
+        font-size: 35px;  
+    }
+    .pbox3{
+        width: 90%;
+        height: 300vh;
+        /*border: 1px solid;*/
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        align-items: center;
+    
+    }
+    .page3{
+        height: 300vh;
+    }
+    .box3{
+        width: 80%;
+        height: 45vh;
+        /*border: 1px solid;*/
+        font-size: 20px;
+        justify-items: center;
+        overflow: hidden;
+
+    }
+    .ima{
+        object-fit: cover;
+    }
+    /* page9 */
+
+ .page9{
+    height: 120vh;
+    width: 100%;
+    border: 1px solid;
+    /* margin-top: 2%; */
+    background-color: #0A6847;
+ }
+
+ .footer{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2.5%;
+ }
+
+ .foot{
+    height: 50vh;
+    width: 40%;
+
+ }
+
+ .footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+ }
+
+ .footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+ }
+
+ .footer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+ }
+
+
+ .footer4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .mint1 h2{
+    color: orange;
+ }
+
+
+ .mint2 {
+    color: snow;
+
+ }
+
+ .mint1 h3{
+    color: orange;
+    margin-top: -25%;
+    font-size: 25px;
+ }
+
+ .mint2 i{
+    padding: 10px;
+    font-size: 25px;
+ }
+
+ li{
+    list-style-type: none;
+    font-size: 25px;
+    text-align: center;
+ }
+
+ a{
+    text-decoration: none;
+    color: snow;
+ }
+
+
+ .copy{
+    color: snow;
+    margin-left: 15%;
+    font-size: 25px;
+}
+    
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:576px){
+    .page1 header  nav .logo h1{
+        font-size: 20px;
+        color: snow;
+        font-weight: 600;
+    }
+    .res a{
+        font-size: 10px;
+    }
+    .dli{
+        font-size: 40px;
+    }
+    .slogan{
+        font-size: 20px;
+    }
+    .pbox2{
+        display: grid;
+        grid-template-columns:repeat(1,1fr) ;
+        width: 90%;
+        height: 180vh;
+    }
+    .page2{
+        height: 200vh;
+    }
+    .box2{
+        margin: 5px;
+    }
+    .box2 h2{
+        font-size: 20px;
+    }
+    .box2 p{
+        font-size: 13px;
+    }
+
+    .pbox3{
+        width: 90%;
+        height: 690vh;
+        /*border: 1px solid;*/
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        align-items: center;
+    
+    }
+    .page3{
+        height: 700vh;
+    }
+    .box3{
+        height: 50vh;
+    }
+    .pname{
+        margin-top: 40px;
+    }
+    /* page9 */
+
+ .page9{
+    height: 230vh;
+    width: 100%;
+    /*border: 1px solid;*/
+    /* margin-top: 2%; */
+    background-color: #0A6847;
+ }
+
+ .footer{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 2.5%;
+ }
+
+ .foot{
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+
+ }
+
+ .footer1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+ }
+
+ .footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+ }
+
+ .footer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+ }
+
+
+ .footer4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ .mint1 h2{
+    color: orange;
+ }
+
+
+ .mint2 {
+    color: snow;
+    
+
+ }
+
+ .mint1 h3{
+    color: orange;
+    margin-top: -25%;
+    font-size: 15px;
+ }
+
+ .mint2 i{
+    padding: 10px;
+    font-size: 25px;
+ }
+
+ li{
+    list-style-type: none;
+    font-size: 25px;
+    text-align: center;
+ }
+
+ a{
+    text-decoration: none;
+    color: snow;
+ }
+
+ .copy{
+    color: snow;
+    margin-left: 7%;
+    font-size:25px;
+}
+}
+
+
+
+
+
+
+
+
+
